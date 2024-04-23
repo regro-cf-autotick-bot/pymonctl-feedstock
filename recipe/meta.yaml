@@ -1,5 +1,5 @@
 {% set name = "PyMonCtl" %}
-{% set version = "0.91" %}
+{% set version = "0.92" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/Kalmat/{{ name }}/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: c639fc02dfa87a08e7b653f569eb578da33202d22ec548f284315fbb08e07583
+  sha256: 64170278da9301071e724a25d687c1de2ca14b2b11bfc6027eec49384d564275
 
 build:
   number: 0
